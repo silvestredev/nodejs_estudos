@@ -1,0 +1,1 @@
+'npm uninstall *nome do pacote' //desinstala um pacote

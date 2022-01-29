@@ -8,7 +8,9 @@
     "inquirer": "^8.2.0",
     "minimist": "^1.2.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
