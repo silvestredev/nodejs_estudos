@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Conecte-se!</h1>
+    <div>
+        <form action="/logar/log" method="post">
+            <div>
+                <label for="name">Digite seu nome aqui:</label>   
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+            </div>
+            <div>
+                <label for="email">Digite seu e-mail aqui:</label>   
+                <input type="email" name="email" id="email" placeholder="Ex: augusto@gmail.com">
+            </div>
+            <p>Você é maior de idade?</p>
+            <div>
+                <input type="radio" id="sim" name="idade" value="sim">
+                <label for="sim">Sim</label>
+            </div>
+            <div>
+                <input type="radio" id="nao" name="idade" value="nao">
+                <label for="nao">Não</label>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
