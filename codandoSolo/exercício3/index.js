@@ -15,7 +15,7 @@ app.use(
 
 app.use(express.json()); //transformar em obj json
 app.use(express.static('public')); //middle para executar css
-app.use('/logar', rotas); //middle para exe as rotas criadas no arquivo router.js
+app.use('/logar', rotas); //middle para exe a 'logar' criada no arquivo router.js
 
 app.get('/', (req, res) => {
     res.sendFile(`${basesDoPath}/index.html`); //pag inicial

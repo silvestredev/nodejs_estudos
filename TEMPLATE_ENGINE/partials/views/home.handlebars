@@ -1,0 +1,13 @@
+<h2>O nome do user é {{user.username}}</h2> 
+
+{{#if auth}}
+    <p>
+        Você está autenticado! <a href="/dashboard">Clique aqui</a> para acessar sua área.
+    </p>
+{{/if}}
+
+{{#if approved}}
+    <p>Parabens</p>
+{{else}}
+    <p>lamento</p>
+{{/if}}
