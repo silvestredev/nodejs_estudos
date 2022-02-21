@@ -8,7 +8,8 @@
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "inquirer": "^8.2.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
